@@ -1,0 +1,32 @@
+/* Reset de márgenes y rellenos para eliminar estilos predeterminados del navegador */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo del contenedor del carrusel */
+#carousel-container {
+    width: 80%; /* Ancho del carrusel, ajusta según tus necesidades */
+    margin: auto; /* Centrar el carrusel */
+    overflow: hidden; /* Ocultar imágenes que se desbordan del contenedor */
+}
+
+/* Estilo del carrusel */ 
+.carousel {
+    display: flex; /* Mostrar las imágenes en línea */
+    transition: transform 0.5s ease-in-out; /* Transición suave al cambiar las imágenes */
+}
+
+/* Estilo de las imágenes en el carrusel */
+.carousel img {
+    width: 100%; /* Hacer que las imágenes ocupen el 100% del ancho del contenedor */
+    height: auto; /* Mantener la proporción original de la imagen */
+}
+
+/* Otros estilos según tus necesidades */

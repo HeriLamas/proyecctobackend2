@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pruebas</title>
+  <!-- Link Tipografía -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/images/car.ico">
+  <!-- Fin Link Tipografía -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header-style">
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              
+              <li>
+                <a href="#" id="sign" data-toggle="modal" data-target="#login-modal">Inicia Sesion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- seccion hero -->
+  
+  <!-- /.Seccion Hero -->
+
+  <!--seccio api-->
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="carousel-container">
+        <!-- Aquí es donde se mostrarán las imágenes -->
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+
+  <!-- /.Seccion App-->
+  <!-- Modales -->
+  <!-- BEGIN # MODAL LOGIN -->
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bgc-green" align="center">
+          <img class="img-circle" id="img_logo" src="assets/images/user.jpeg" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </div>
+        <!-- Begin # DIV Form -->
+        <div id="div-forms" class="bgc-green">
+          <!-- Begin # Login Form -->
+          
+          <!-- End # Login Form -->
+        </div>
+        <!-- End # DIV Form -->
+      </div>
+    </div>
+  </div>
+  <!-- END # MODAL LOGIN -->
+  <!-- MODAL REGISTER -->
+  
+      <!-- END # MODAL LOGIN -->
+    </div>
+    <!-- Inicio 4ta Parte -->
+    <section class="four-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 col-md-offset-9 col-opacity">
+            <h2 class="font-bold">Tenemos la PC que Buscas</h2>
+            <p id="textoe">Desde gamas bajas hasta topes de gama en equipo de computo</p>
+            <button type="button" class="btn btn-primary font-bold padding10" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"
+              id="covierteconduct">Disfruta cualquier juego que quieras en full had 4k 60 fps</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin 4ta Parte -->
+    <!-- Inicio 5ta Parte -->
+    <section class="five-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-sm-4">
+            <div class="container-map">
+              <p class="font-bold font-size18"></p>
+              <p>Consulta nuestra ubicacion</p>
+              <div class="row">
+                <div class="col-xs-2 center">
+                  <img src="" alt="">
+                </div>
+                <div class="col-xs-10">
+                  <input id="imp1" type="text" class="form-control" placeholder="Insurgentes Centro,Cuauhtémoc,Ciudad de Mexico">
+                  <!-- <p class="paragraphs-map">Insurgentes Centro,Cuauhtémoc,Ciudad de Mexico</p> -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-2 center">
+                  <img src="assets/images/shape2.png" alt="">
+                </div>
+                <div class="col-xs-10">
+                  <input id="imp2" type="text" class="form-control" placeholder="Carolina, Ciudad de los deportes, Ciudad de Mexico">
+                  <!-- <p class="paragraphs-map">Carolina, Ciudad de los deportes, Ciudad de Mexico</p> -->
+                </div>
+              </div>
+              <div class="center">
+                <button id="ruta" class="btn btn-default button-map" type="submit">TRAZAR RUTA ¡</button>
+              </div>
+              <div class="center">
+                <button id="find-me" class="btn btn-default button-map" type="submit">ENCUENTRAME !</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-sm-8">
+            <div class="container-map-graffy">
+              <div class="map" id="map">
+              </div>
+              <script src="js/mapadesktop.js"></script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZz8yPIhZkUVCLCzYucfdq9oB9l4sidXg&callback=initMap&libraries=places"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin 5ta Parte -->
+    <!-- Inicio Footer -->
+   
+</html>

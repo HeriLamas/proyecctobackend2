@@ -1,0 +1,452 @@
+/* Los estilos de tu proyecto */
+/* CSS Body */
+body{
+    font-family: 'Raleway', sans-serif;
+    
+    
+    
+}
+/* Estilo de las imágenes en el carrusel */
+.carousel img {
+    width: 20%; /* Hacer que las imágenes ocupen el 100% del ancho del contenedor */
+    display: block; /* Colocar cada imagen en una nueva línea */
+}
+
+// Establecer un ancho específico para las imágenes
+imgElement.style.width = '100%'; // Puedes ajustar este valor según sea necesario
+
+
+/* Estilo del contenedor del carrusel */
+#carousel-container {
+    width: 80%; /* Ancho del carrusel, ajusta según tus necesidades */
+    margin: auto; /* Centrar el carrusel */
+    overflow: hidden; /* Ocultar imágenes que se desbordan del contenedor */
+    display: flex; /* Mostrar las imágenes en línea */
+    align-items: center; /* Alinear verticalmente las imágenes en el centro */
+}
+
+
+/* Fin CSS Body */
+container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+/* Clases Reutilizables */
+.font-bold{
+    font-weight: bold;
+}
+
+.font-white{
+    color: #fff;
+}
+
+.font-size18{
+   font-size: 18px;
+}
+
+.none{
+    display: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.padding10{
+    padding: 10px;
+}
+/* Fín Clases Reutilizables */
+
+/* CSS  4ta sección*/
+.four-section{
+    background-image: url(../assets/images/pc5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding: 120px 0px; */
+}
+
+.four-section .container{
+    width: 100%;
+}
+
+.col-opacity{
+    /* outline: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 400px;
+}
+
+.col-opacity h2, #textoe{
+    color: #ffffff;
+}
+
+.col-opacity h2{
+    padding-top: 80px;
+}
+
+#covierteconduct1{
+    background-color: #fff;
+    color: #000;
+    border: #a9a9a9;
+    margin-left: -42px;
+}
+
+#covierteconduct{
+    background-color: #f7b617;
+    border: none;
+}
+
+.modalConvDrive{
+    background-color: #a9a9a9;
+}
+
+.btnsend{
+    width: 100%;
+    background-color: #5bc0de;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.btnsend:hover{
+    background-color: #f7b617;
+}
+/* Fín CSS 4ta Sección*/
+
+/* Inicio CSS 5ta Sección */
+.five-section{
+    background-color: #f7b617;
+    padding: 20px;
+}
+
+/* Para el mapa */
+.map{
+    height: 250px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-map{
+    padding: 15px;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.paragraphs-map{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.button-map{
+    border: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.container-map-graffy{
+  outline: 1px solid #fff;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
+#imp1, #imp2{
+  background-color: #ffc107;
+  margin: 3px;
+  color: #ffffff;
+}
+
+/* Fin CSS 5ta Sección */
+
+/* Inicio Estilos Footer */
+footer{
+    background-color: #2b2b2b;
+    padding: 40px;
+}
+
+.mobile-footer ul{
+    list-style: none;
+  }
+
+  .mobile-footer ul>li>a{
+      color: #fff;
+  }
+
+  .fa {
+      color: #fff;
+      margin-left: 8px;
+      margin-bottom: 20px;
+  }
+
+  .container-app{
+    overflow: auto;
+    width: 60%;
+  }
+
+  .container-app a>img{
+      width: 70%;
+      margin-bottom: 20px;
+  }
+
+  .desktop-footer ul{
+    list-style: none;
+ }
+
+ .desktop-footer ul>li>a{
+     color: #fff;
+ }
+
+ .flex{
+   display: flex;
+   align-items: flex-start;
+
+ }
+
+ .flex-end{
+   align-self: flex-end;
+ }
+/* Fin Estilos Footer */
+
+
+/* Inicio Media */
+@media (min-width: 768px) {
+    .mobile-info{
+        display: none;
+    }
+
+    .mobile-celular{
+        display: none;
+    }
+
+    .container-map-graffy {
+        width: 420px;
+    }
+
+    .mobile-footer{
+        display: none;
+    }
+
+    .container-app a>img{
+        width: 150px;
+    }
+ }
+
+ @media (max-width: 768px){
+     .destok-info{
+         display: none;
+     }
+
+     .desktop-celular{
+         display: none;
+     }
+
+     .desktop-footer{
+         display: none;
+     }
+}
+/* Fin Media */
+/*Estilos para secciones desarrolladas por Nataly */
+.header-style{
+    background-color: #fff;
+    height: 50px;
+}
+.container-super-fluid{
+    width: 100%;
+    padding: 0;
+}
+.col-super-lg-12{
+    width: 100%;
+    padding: 0;
+}
+.image-car{
+   /*  filter: grayscale(100%); */
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+/*     width: 100%;
+    height: 700px;
+    max-height: 1200px; */
+}
+.image-main{
+    background-image: url(../assets/images/taxi.jpg);
+  /*   width: 100%;
+    height: 100%; */
+}
+.orange{
+    background-color: #f7b617;
+}
+.panel-right-main{
+    padding-top:9%;
+    padding-bottom:9%;
+    padding-right: 5%;
+    padding-left: 9%;
+    width: 100%;
+    line-height: 1.1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.panel-right-main p{
+    font-size: 3rem;
+    color:#fff;
+}
+.button-register{
+    margin:1.5rem;
+
+}
+#sect-hero span{
+    color:#fff;
+}
+.line-work{
+    background-color: #f7b617;
+    position: relative;
+    top:-36px;
+    left:50%;
+    font-size: 1.8rem!important;
+}
+/*Estilos para xs*/
+.panel-right-main span{
+  font-size: 3rem;
+}
+.panel-right-main img{
+    width: 20%;
+    position: relative;
+    top:-0.5rem;
+    left: 0.5rem;
+}
+.button-app{
+    margin-top: 10px;
+}
+
+/*Estilos de seccion App*/
+.app-style{
+    border: 2px solid #fff;
+    color:#fff;
+}
+/*Estilos de seccion App-movil-xs*/
+
+.app-style-xs{
+    border: 2px solid #fff;
+    color:#fff;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section.orange > div > div:nth-child(2) > div.col-xs-12 > p{
+  color: #fff;
+  font-size: 1.8rem;
+}
+/*Clases reutilizables*/
+.p-40{
+    padding: 40px 0;
+}
+.p-10{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.m-10{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.pr-0{
+    padding-right: 0;
+}
+section.orange > div > div > div > div.col-md-5.col-md-offset-1 > p{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/*********************/
+/*Estilos de modales*/
+
+.bgc-green{
+    background-color:#08AC9D ;
+}
+.bgc-white{
+    background-color: #fff;
+}
+#img_logo{
+    width: 30%;
+}
+.modal-p{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.color-w{
+    color: #fff;
+}
+.color-red{
+    color:red;
+}
+/*Estilo modal registro*/
+.button-count{
+    background-color: #333;
+}
+.button-count:hover{
+    background-color: #333;
+}
+.color-gray{
+    background-color: #a9a9a9;
+}
+.button-dropdow{
+    background-color:gainsboro;
+
+}
+.a-dropdow{
+    color: #333;
+
+}
+.a-dropdow:hover{
+    color: #333;
+    text-decoration: none;
+}
+h5{
+    text-align: center;
+}
